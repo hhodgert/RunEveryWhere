@@ -4,6 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using RunEveryWhere;
 
 namespace RunEveryWhere.iOS
 {
@@ -14,9 +15,7 @@ namespace RunEveryWhere.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
-
-
+            
             return base.FinishedLaunching(app, options);
         }
     }
